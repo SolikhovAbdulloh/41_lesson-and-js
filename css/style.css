@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contiener{
+    padding: 20px 40px;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+a:hover{
+    color: #F50E30;
+    text-decoration:dashed;
+}
+button{
+    color: white;
+    background: #f50e30;
+}
+button:hover{
+    background: #000;
+    color: white;
+}
+.hh div:hover{
+    transform: translateZ(30px) rotateX(10deg) rotateY(10deg);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.6);
+}
+.kk div:hover{
+    transform: translateZ(30px) rotateX(10deg) rotateY(10deg);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.6);
+}
+@media (max-width:922px) {
+    ul li{
+        display: none;
+    }
+    .lo{
+        display: none;
+    }
+}
+@media (max-width:288px) {
+    header div{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+@media (max-width:1350px) {
+    .rr{
+        width: 100%;
+    }
+    .ff{
+        font-size: 40px;
+    }
+}
+@media (max-width:680px) {
+    .dd{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media (max-width:600px) {
+    .gg h3{
+        font-size: 35px;
+    }
+    .gg button{
+        width: 200px;
+        height: 47px;
+    }
+}
+@media (max-width : 1333px) {
+    .hh div{
+        width: 320px;
+        height: 230px;
+    }
+    .hh div img{
+        display: none;
+    }
+}
+@media (max-width:1058px) {
+    .hh{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+        width: 511px;
+        height: 364px;
+    }
+    .hh div img{
+        display: none;
+    }
+}
+@media (max-width:678px) {
+    .hh{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 40px;
+    }
+}
+@media (max-width:1244px) {
+    .jj{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+    }
+}@media (max-width:1244px){
+    .kk {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+        
+    
+}
+@media (max-width:904px){
+    .kk {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        width: 100%;
+        justify-content: center;
+    }
+        
+    
+}
