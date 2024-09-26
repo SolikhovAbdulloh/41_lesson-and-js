@@ -20,6 +20,12 @@
 
 // console.log(vaporcode(str));
 
+///////////////////////////////////////////////////////////
+
+
+//2-masala
+
+
 // function Sum(number) {
 //   let arr = String(number).split("");
 
@@ -37,7 +43,7 @@
 
 // Futbol jamoamiz chempionatni yakunladi.
 
-// Jamoamizning o'yin natijalari qatorlar to'plamida qayd etilgan. Har bir o'yin formatidagi satr bilan 
+// Jamoamizning o'yin natijalari qatorlar to'plamida qayd etilgan. Har bir o'yin formatidagi satr bilan
 
 // ifodalanadi "x:y", bu erda xjamoamizning ochkolari va yraqiblarimizning ochkolari.
 
@@ -56,4 +62,57 @@
 // 0 <= x <= 4
 // 0 <= y <= 4
 
+// 3-masala
+// function sumArr(arr) {
+//   const sum = 0;
+//   const sum1 = 0;
+//   let orta = 0;
+//   let orta1 = 0;
+//   let count = 0;
+//   let count1 = 0;
+
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] < 10) {
+//       count++;
+//       sum += arr[i];
+//     } else {
+//       count1++;
+//       sum1 += arr[i];
+//     }
+//   }
+//   console.log((orta = sum / count));
+//   console.log((orta1 = sum1 / count1));
+// }
+
+// let arr = [
+//   [1, 2, 3, 4, 5, 6, 7],
+//   [15, 25, 35, 45, 55],
+// ];
+
+// sumArr(arr);
+
+
+//4-masala
+
+// function oddOne(arr){
+
+//     let arr2 = arr.map(arr => Math.abs(arr))
+
+
+//     let count = 0;
+
+//     for(let i = 0 ; i < arr2.length ; i++){
+
+        
+//         if(arr2[i] % 2 == 1 ){
+            
+//             count++
+//             return i
+//         }
+        
+//     }
+//     if(count == 0){
+//         return -1
+//     }
+// }
 
